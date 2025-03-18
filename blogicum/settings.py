@@ -58,7 +58,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR / 'html', 
+            BASE_DIR / 'html',
             BASE_DIR / 'html/blog',
             BASE_DIR / 'html/pages',
         ],
@@ -74,11 +74,7 @@ TEMPLATES = [
     },
 ]
 
-
-
 WSGI_APPLICATION = 'blogicum.wsgi.application'
-
-
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
